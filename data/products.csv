@@ -1,5 +1,21 @@
-name,brand,category,price,rating,description
-"Sony WH-1000XM5","Sony","Electronics",398,4.8,"Noise cancelling wireless headphones"
-"MacBook Air M2","Apple","Electronics",999,4.9,"13.6-inch laptop with Apple M2 chip"
-"Nike Air Force 1","Nike","Footwear",110,4.7,"Classic casual sneakers, white"
-"Coffee Maker","Generic","Home",45,4.2,"Programmable drip coffee machine"
+product_id,name,category,brand,price,rating,stock,description
+101,Dell Inspiron 15,Laptop,Dell,54999,4.3,25,15.6 inch laptop with Intel Core i5 processor 16GB RAM and 512GB SSD
+102,HP Pavilion 15,Laptop,HP,62999,4.4,18,15.6 inch laptop with Intel Core i7 processor 16GB RAM and 512GB SSD
+103,Lenovo IdeaPad Slim 5,Laptop,Lenovo,57999,4.5,30,15.6 inch laptop with AMD Ryzen 7 processor 16GB RAM and 512GB SSD
+104,ASUS Vivobook 15,Laptop,ASUS,49999,4.2,22,15.6 inch laptop with Intel Core i5 processor 16GB RAM and 512GB SSD
+105,MacBook Air M4,Laptop,Apple,99999,4.8,12,Apple MacBook Air with M4 chip 16GB RAM and 512GB SSD
+106,Samsung Galaxy S25,Smartphone,Samsung,74999,4.6,20,Flagship smartphone with AMOLED display 12GB RAM and 256GB storage
+107,iPhone 16,Smartphone,Apple,79999,4.7,15,Apple smartphone with A18 chip 8GB RAM and 128GB storage
+108,OnePlus 13,Smartphone,OnePlus,69999,4.6,24,Premium smartphone with Snapdragon processor 12GB RAM and 256GB storage
+109,Google Pixel 9,Smartphone,Google,67999,4.5,17,Smartphone with advanced camera system 12GB RAM and 256GB storage
+110,Redmi Note 14,Smartphone,Xiaomi,24999,4.3,40,Affordable smartphone with AMOLED display 8GB RAM and 256GB storage
+111,Sony WH-1000XM5,Headphones,Sony,29999,4.7,14,Wireless noise cancelling headphones with premium sound quality
+112,Bose QuietComfort,Headphones,Bose,26999,4.6,16,Wireless noise cancelling headphones with comfortable design
+113,JBL Tune 770NC,Headphones,JBL,6999,4.4,35,Wireless headphones with active noise cancellation and long battery life
+114,AirPods Pro 2,Earbuds,Apple,24999,4.7,20,Wireless earbuds with active noise cancellation and spatial audio
+115,Galaxy Buds 3,Earbuds,Samsung,12999,4.5,27,Wireless earbuds with ANC and high quality audio
+116,Logitech MX Master 3S,Mouse,Logitech,8999,4.7,30,Wireless ergonomic mouse suitable for productivity and programming
+117,Logitech G502,Mouse,Logitech,6499,4.6,28,Gaming mouse with programmable buttons and RGB lighting
+118,Keychron K2,Keyboard,Keychron,8999,4.5,19,Mechanical wireless keyboard with compact layout
+119,Logitech K380,Keyboard,Logitech,2999,4.4,45,Compact Bluetooth keyboard suitable for laptops tablets and phones
+120,Apple iPad Air,Tablet,Apple,59999,4.7,13,Tablet with powerful processor 11 inch display and 128GB storage
