@@ -3,4 +3,5 @@ pandas
 python-dotenv
 sentence-transformers
 faiss-cpu
-google-genaitorchvision
+google-genai
+torchvision
