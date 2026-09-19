@@ -1,4 +1,4 @@
-product_name,category,price,rating,description
+name,category,price,rating,description
 "Sony WH-1000XM5","Electronics",398,4.8,"Noise cancelling wireless headphones"
 "MacBook Air M2","Electronics",999,4.9,"13.6-inch laptop with Apple M2 chip"
 "Nike Air Force 1","Footwear",110,4.7,"Classic casual sneakers, white"
