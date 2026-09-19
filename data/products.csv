@@ -1,5 +1,5 @@
-name,category,price,rating,description
-"Sony WH-1000XM5","Electronics",398,4.8,"Noise cancelling wireless headphones"
-"MacBook Air M2","Electronics",999,4.9,"13.6-inch laptop with Apple M2 chip"
-"Nike Air Force 1","Footwear",110,4.7,"Classic casual sneakers, white"
-"Coffee Maker","Home",45,4.2,"Programmable drip coffee machine"
+name,brand,category,price,rating,description
+"Sony WH-1000XM5","Sony","Electronics",398,4.8,"Noise cancelling wireless headphones"
+"MacBook Air M2","Apple","Electronics",999,4.9,"13.6-inch laptop with Apple M2 chip"
+"Nike Air Force 1","Nike","Footwear",110,4.7,"Classic casual sneakers, white"
+"Coffee Maker","Generic","Home",45,4.2,"Programmable drip coffee machine"
