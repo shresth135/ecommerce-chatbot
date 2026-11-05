@@ -4,6 +4,8 @@ An AI-powered e-commerce shopping assistant built using **Python, Streamlit, FAI
 
 The chatbot can search products, recommend products, compare products, answer store FAQs, and maintain conversation context.
 
+![E-Commerce AI Assistant comparing two laptops](screenshot.png)
+
 ## 🚀 Features
 
 * 🔎 Semantic product search
@@ -86,19 +88,17 @@ ecommerce-chatbot/
 │   ├── products.csv
 │   └── faqs.csv
 │
-├── src/
-│   ├── product_search.py
-│   ├── vector_search.py
-│   ├── faq_search.py
-│   ├── rag.py
-│   ├── test_data.py
-│   ├── test_search.py
-│   ├── test_vector_search.py
-│   └── test_rag.py
-│
-├── app.py
+├── app.py                  # Streamlit chat UI (entry point)
+├── product_search.py       # keyword product search
+├── vector_search.py        # FAISS + Sentence Transformers search
+├── faq_search.py           # FAQ retrieval
+├── rag.py                  # retrieval-augmented generation with Gemini
+├── test_data.py
+├── test_search.py
+├── test_vector_search.py
+├── test_rag.py
+├── screenshot.png
 ├── requirements.txt
-├── .env
 ├── .gitignore
 └── README.md
 ```
@@ -108,7 +108,7 @@ ecommerce-chatbot/
 Clone the repository:
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/shresth135/ecommerce-chatbot.git
 cd ecommerce-chatbot
 ```
 
@@ -260,19 +260,19 @@ Never commit API keys or other secrets.
 Run the individual tests:
 
 ```bash
-python src/test_data.py
+python test_data.py
 ```
 
 ```bash
-python src/test_search.py
+python test_search.py
 ```
 
 ```bash
-python src/test_vector_search.py
+python test_vector_search.py
 ```
 
 ```bash
-python src/test_rag.py
+python test_rag.py
 ```
 
 ## ☁️ Deployment
